@@ -83,3 +83,40 @@ npm run dev
 
 3. **Trợ Lý Y Tế AI 24/7**:
    - Widget chat thông minh nổi ở góc phải màn hình, hỗ trợ tư vấn xử lý triệu chứng (như huyết áp 145/90 mmHg), nhắc lịch uống thuốc, hướng dẫn bài thở 4-7-8, kích hoạt điều phối khẩn cấp và mô phỏng nhận diện giọng nói.
+
+---
+
+## 🌐 Hướng Dẫn Triển Khai Lên Vercel
+
+Hệ thống đã được cấu hình sẵn cấu trúc **Vercel Serverless Monorepo** (Frontend Vite tĩnh + Backend Express chạy qua Serverless Function tại `/api/index.js`).
+
+### Cách 1: Triển khai nhanh bằng Vercel CLI (Khuyên dùng)
+Trong thư mục `gocare-web`:
+```powershell
+npx vercel
+```
+- Khi được hỏi:
+  - `Set up and deploy?`: Chọn **Y**
+  - `Which scope do you want to deploy to?`: Chọn tài khoản Vercel của bạn
+  - `Link to existing project?`: Chọn **N**
+  - `What's your project's name?`: Để mặc định `gocare-web` hoặc đặt tên bạn muốn
+  - `In which directory is your code located?`: Để mặc định `./`
+- Vercel sẽ tự động phát hiện tệp `vercel.json`, build ứng dụng và cung cấp đường dẫn live demo (ví dụ: `https://gocare-web.vercel.app`).
+- Để deploy lên môi trường Production chính thức:
+```powershell
+npx vercel --prod
+```
+
+### Cách 2: Triển khai qua GitHub & Vercel Dashboard
+1. Khởi tạo Git và đẩy mã nguồn trong `gocare-web` lên GitHub:
+   ```powershell
+   git init
+   git add .
+   git commit -m "feat: complete gocare web with vercel config"
+   git remote add origin <URL_REPO_GITHUB_CUA_BAN>
+   git push -u origin main
+   ```
+2. Truy cập [vercel.com](https://vercel.com) > Đăng nhập > Chọn **Add New...** > **Project**.
+3. Import repository GitHub vừa tạo.
+4. Vercel sẽ tự động đọc `vercel.json` (Framework: Vite, Root Directory: `./`, Output Directory: `client/dist`). Bấm **Deploy**.
+

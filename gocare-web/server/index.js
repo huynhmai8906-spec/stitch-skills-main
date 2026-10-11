@@ -10,18 +10,32 @@ const PORT = process.env.PORT || 4000;
 app.use(cors());
 app.use(express.json());
 
-// Helper to read JSON
+// Helper to read JSON with in-memory caching for serverless environments
+const inMemoryData = {};
+
 function readData(filename) {
+  if (inMemoryData[filename]) return inMemoryData[filename];
   const filePath = path.join(__dirname, 'data', filename);
   if (!fs.existsSync(filePath)) return [];
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  return JSON.parse(raw);
+  try {
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    const parsed = JSON.parse(raw);
+    inMemoryData[filename] = parsed;
+    return parsed;
+  } catch (e) {
+    return [];
+  }
 }
 
-// Helper to write JSON
+// Helper to write JSON (falls back to memory if disk is read-only)
 function writeData(filename, data) {
-  const filePath = path.join(__dirname, 'data', filename);
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
+  inMemoryData[filename] = data;
+  try {
+    const filePath = path.join(__dirname, 'data', filename);
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
+  } catch (err) {
+    console.warn('File write bypassed in serverless environment:', err.message);
+  }
 }
 
 // --- 1. Health check ---
@@ -285,10 +299,14 @@ app.post('/api/ai/chat', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`====================================================`);
-  console.log(`🏥 GoCare 5-Star Healthcare Backend Server is RUNNING`);
-  console.log(`📡 URL: http://localhost:${PORT}`);
-  console.log(`🩺 Health check: http://localhost:${PORT}/api/health`);
-  console.log(`====================================================`);
-});
+if (require.main === module || (!process.env.VERCEL && process.env.NODE_ENV !== 'production')) {
+  app.listen(PORT, () => {
+    console.log(`====================================================`);
+    console.log(`🏥 GoCare 5-Star Healthcare Backend Server is RUNNING`);
+    console.log(`📡 URL: http://localhost:${PORT}`);
+    console.log(`🩺 Health check: http://localhost:${PORT}/api/health`);
+    console.log(`====================================================`);
+  });
+}
+
+module.exports = app;
