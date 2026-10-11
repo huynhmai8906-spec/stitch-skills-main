@@ -1,0 +1,18 @@
+[
+  {
+    "id": "BK-1001",
+    "caregiverId": "c1",
+    "caregiverName": "ĐD. Trần Thị Hoài Thương",
+    "serviceType": "Phục hồi chức năng & Vật lý trị liệu sau tai biến",
+    "shift": "8h",
+    "shiftName": "Ca 8 Giờ Tiêu Chuẩn",
+    "patientName": "Cụ Ông Trần Văn An",
+    "contactPhone": "0908 123 456",
+    "address": "Villas Thảo Điền, TP. Thủ Đức, TP.HCM",
+    "startDate": "2025-04-15",
+    "notes": "Hỗ trợ tập đi và tập phục hồi cơ tay trái",
+    "price": 720000,
+    "status": "CONFIRMED",
+    "createdAt": "2025-04-14T08:00:00Z"
+  }
+]

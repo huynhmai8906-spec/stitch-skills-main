@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rev-1",
+    "caregiverId": "c1",
+    "caregiverName": "ĐD. Trần Thị Hoài Thương",
+    "reviewerName": "Chị Đỗ Thu Hà",
+    "relationship": "Con gái cụ Lê Thị Tuyết (82 tuổi) • Thảo Điền",
+    "rating": 5,
+    "comment": "Sau tai biến, mẹ tôi rất mặc cảm và buồn rầu. Nhờ điều dưỡng Thương kiên trì tập đi tại khu vườn nội khu của GoCare, mẹ không những đi lại được mà tâm trạng còn vui tươi, nụ cười trở lại như xưa.",
+    "createdAt": "2025-04-10T14:20:00Z"
+  },
+  {
+    "id": "rev-2",
+    "caregiverId": "c2",
+    "caregiverName": "ĐD. Hoàng Bích Ngọc",
+    "reviewerName": "Anh Trần Trọng Khang",
+    "relationship": "Thân nhân bệnh nhân chăm sóc tại gia • Q.1",
+    "rating": 5,
+    "comment": "Dịch vụ y tá tại nhà ban đêm của GoCare thật sự là cứu cánh cho cả nhà. Bố tôi được chăm sóc đúng quy trình y khoa, đo sinh hiệu báo cáo hằng sáng qua ứng dụng vô cùng minh bạch và chuẩn chỉ.",
+    "createdAt": "2025-04-11T09:15:00Z"
+  },
+  {
+    "id": "rev-3",
+    "caregiverId": "c3",
+    "caregiverName": "BS.CKII Nguyễn Đức Thành",
+    "reviewerName": "Bác Nguyễn Văn Vinh (76 tuổi)",
+    "relationship": "Cư dân Suite Tổng Thống • GoCare Sanctuary",
+    "rating": 5,
+    "comment": "Không gian phòng dưỡng lão như khách sạn 5 sao nhưng đầy đủ thiết bị cấp cứu và y lệnh nghiêm ngặt. Bác sĩ thăm khám mỗi ngày với sự kính trọng người già hiếm thấy ở đâu có được.",
+    "createdAt": "2025-04-12T16:45:00Z"
+  }
+]

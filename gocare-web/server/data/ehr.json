@@ -1,0 +1,39 @@
+{
+  "patients": [
+    {
+      "id": "GC-P-8842",
+      "fullName": "Cụ Ông Trần Văn An",
+      "age": 82,
+      "gender": "Nam",
+      "address": "Villas Thảo Điền, TP. Thủ Đức, TP. Hồ Chí Minh",
+      "contactPerson": "Anh Trần Trọng Khang (Con trai - 0908 123 456)",
+      "room": "Boutique Suite Heritage 08",
+      "package": "Nội Trú Cao Cấp VIP (Boutique Suite 5 Sao)",
+      "primaryDoctor": "BS.CKII Nguyễn Đức Thành",
+      "primaryNurse": "ĐD. Trần Thị Hoài Thương",
+      "diagnoses": [
+        "Hậu tai biến mạch máu não bán cầu trái (Tháng 02/2024)",
+        "Tăng huyết áp vô căn độ II (JNC 8)",
+        "Tiểu đường Type 2 kiểm soát bằng thuốc uống"
+      ],
+      "allergies": ["Penicillin (Dị ứng mề đay nhẹ)", "Aspirin"],
+      "vitalsHistory": [
+        { "timestamp": "2025-04-14T07:30:00Z", "bpSys": 138, "bpDia": 85, "heartRate": 74, "spO2": 98, "glucose": 6.8, "temp": 36.6, "recordedBy": "ĐD. Hoài Thương", "status": "STABLE" },
+        { "timestamp": "2025-04-14T11:45:00Z", "bpSys": 142, "bpDia": 88, "heartRate": 78, "spO2": 97, "glucose": 7.4, "temp": 36.7, "recordedBy": "ĐD. Hoài Thương", "status": "STABLE" },
+        { "timestamp": "2025-04-14T18:00:00Z", "bpSys": 145, "bpDia": 90, "heartRate": 82, "spO2": 97, "glucose": 7.1, "temp": 36.8, "recordedBy": "ĐD. Hoài Thương", "status": "WARNING", "note": "Huyết áp hơi tăng nhẹ sau bữa ăn, đã hướng dẫn nghỉ ngơi thư giãn" },
+        { "timestamp": "2025-04-15T06:30:00Z", "bpSys": 132, "bpDia": 82, "heartRate": 71, "spO2": 99, "glucose": 6.2, "temp": 36.5, "recordedBy": "ĐD. Bích Ngọc", "status": "OPTIMAL" }
+      ],
+      "medications": [
+        { "name": "Amlodipine 5mg", "dose": "1 viên", "schedule": "Sáng 08:00 sau ăn", "purpose": "Hạ áp", "status": "TAKEN" },
+        { "name": "Metformin 500mg", "dose": "1 viên", "schedule": "Sáng 08:00 & Chiều 18:00", "purpose": "Kiểm soát đường huyết", "status": "TAKEN" },
+        { "name": "Ginkgo Biloba 120mg", "dose": "1 viên", "schedule": "Trưa 12:00", "purpose": "Tăng cường tuần hoàn não", "status": "PENDING" },
+        { "name": "Atorvastatin 10mg", "dose": "1 viên", "schedule": "Tối 20:00 trước ngủ", "purpose": "Hạ mỡ máu & bảo vệ thành mạch", "status": "PENDING" }
+      ],
+      "carePlan": {
+        "nutrition": "Chế độ giảm muối (< 5g/ngày), tăng cường rau luộc & cá hồi giàu Omega-3, hạn chế tinh bột nhanh.",
+        "physicalTherapy": "Tập đi thanh song song 30 phút/ngày (09:00 - 09:30), xoa bóp cơ tứ đầu đùi và bàn tay trái.",
+        "cognitiveExercises": "Thiền tĩnh tâm 20 phút sau khi uống trà thảo dược lúc 16:00."
+      }
+    }
+  ]
+}

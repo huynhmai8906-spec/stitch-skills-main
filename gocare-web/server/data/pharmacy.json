@@ -1,0 +1,54 @@
+[
+  {
+    "id": "med-1",
+    "name": "Bộ Kit Đo Sinh Hiệu Thông Minh Omron JPN710",
+    "category": "medical_device",
+    "partner": "Long Châu",
+    "partnerBadge": "Hệ thống Long Châu phân phối độc quyền",
+    "price": 1850000,
+    "discountPrice": 1690000,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCY1DZcgixtc7eWEjgmx79GnOHE6v7XdvP6Z9snXxyCRnZqJ3qxrRFbHR7JAxYkd4zDcdpqC8tcUgtLQPgm5oQXNUaWM842yvqWdSHA7lLPfsWjHO9amJcxEnbmaC4veRCZK5o7Nml07MJJ8OYAVed-gQcHl6PXGUjOiJGmQPWUtFfYXLR-Xor1Lu-riFq3uqCb_dsu4IsXUjx1tmDQP7kcrmYenMb1vtue0R4oFkFI8EyY_Nk1hK0ESw",
+    "prescriptionRequired": false,
+    "description": "Máy đo huyết áp bắp tay tự động, cảm biến Intellisense phát hiện rung nhĩ (AFib) và loạn nhịp tim chuẩn y tế Nhật Bản, kết nối Bluetooth với GoCare EHR.",
+    "deliveryTime": "Giao siêu tốc 30 phút"
+  },
+  {
+    "id": "med-2",
+    "name": "Sữa Dinh Dưỡng Y Học Fortimel Protein 125ml",
+    "category": "clinical_nutrition",
+    "partner": "An Khang",
+    "partnerBadge": "Nhà thuốc An Khang đối tác vàng",
+    "price": 380000,
+    "discountPrice": 355000,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDGtx_hzsEkVuxmVvE16iCyZvkp23DqLj3N8KkUDgykOcW2JSvmoWulXjP-mYtyRt4Laswp7Qs7RNBnWrP-tG_MWq4VSDRJp5dXL2DzEZxRW1aklodivhC7WLRpyfHJUEAwgJ6nqTyTjhdHfPzoy_xUfwFbUETgNHiblIgwdTMbf_mYowKbJ2pm8GS1mL2J4QfKpEVaRfEFEg7X4pFmkeR6To32-mZYvZ4TOwPmaILDxHpAuZYqqRLy7Q",
+    "prescriptionRequired": false,
+    "description": "Dinh dưỡng cao năng lượng và đạm chuyên biệt cho bệnh nhân sau phẫu thuật, người cao tuổi ăn uống kém hoặc phục hồi chức năng thể lực.",
+    "deliveryTime": "Giao trong 1 giờ"
+  },
+  {
+    "id": "med-3",
+    "name": "Bộ Băng Gạc Vô Trùng Urgo Chống Loét Tì Đè Hydrocolloid",
+    "category": "wound_care",
+    "partner": "Long Châu",
+    "partnerBadge": "Long Châu Medical Care",
+    "price": 280000,
+    "discountPrice": 260000,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDjxVIX5qu3CTzRT4G_l1Y7SSzbECUt7ZijbT8CtQYlf8HSmgaxnTwC9Pvb-D1c0Y3snv6TK056GDDj6PEaTVYJJAgCUvPFcyzsqhFVhlcBn3HwgHIKVACO5BlhHr5w3aTr7tOEyxLmUgKf6xBaACV6mdSrwVcXzdAWe-rvAk-slXJlHcL7orXLhhrfArXKexfbVrMAhdUApGk4P9EKLrvjCiEmlZsLa0zCnU8_b4mPDjeZNFYgagShmA",
+    "prescriptionRequired": false,
+    "description": "Băng gạc công nghệ bọt mềm hút dịch, tạo môi trường vi mô lành thương sinh học, giảm đau tức thì cho vùng cùng cụt và gót chân.",
+    "deliveryTime": "Giao siêu tốc 30 phút"
+  },
+  {
+    "id": "med-4",
+    "name": "Đông Trùng Hạ Thảo Tự Nhiên & Trà Thảo Dược Dưỡng Tâm",
+    "category": "wellness_herbal",
+    "partner": "GoCare Sanctuary Pharmacy",
+    "partnerBadge": "Dược liệu cung đình GoCare",
+    "price": 1250000,
+    "discountPrice": 1150000,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDKLY0b6OI2yuZ2wG1lE2OSTeWAW6_ArqfFiy0zCQu0Ggldwji-IpzVGqBIl0jNkeDo8KWvCQhs9KJH-FGG3U-StTwEXTxzinDtf-3Rjtq1zTcMoC3e35ZecVZBiGKjznwqgiTBILtWCeijJB88Sq1zbPBVbSqwvCiCIwz0mCFQJaPrwbVFtQvRf58cF8mgxxjwuqUZ8vDgTj1-sl2HzasLAJtWCqj1xjBlhyaXdJ9cgiZjemPaAIa-TA",
+    "prescriptionRequired": false,
+    "description": "Dược liệu nuôi trồng chuẩn GACP-WHO, hỗ trợ ngủ sâu giấc, điều hòa nhịp tim và khí huyết, thanh lọc độc tố gan thận.",
+    "deliveryTime": "Giao trong ngày"
+  }
+]
